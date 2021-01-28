@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="480px" height="160px" viewBox="0 0 480 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo</title>
+    <g id="🎨-/-The-Maypole-Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-Landing-Page" transform="translate(-480.000000, -64.000000)">
+            <g id="logo" transform="translate(480.000000, 64.000000)">
+                <g id="2743">
+                    <path d="M17.2137931,158.896552 C5.73793103,149.627586 7.5268527e-14,138.151724 7.5268527e-14,124.468966 C7.5268527e-14,103.944828 10.27664,98.7667305 11.9159483,76.8 C13.5552565,54.8332695 2.64698276,42.6976293 11.9159483,23.9993534 C21.1849138,5.30107759 40.3862069,0 67.5310345,0 C94.6758621,0 128.438793,23.8331897 128.438793,50.3172414 C128.438793,76.8012931 114,84.7448276 114,96.4461207 C114,108.147414 114.535345,115.2 128.438793,131.089655 C137.707759,141.682759 142.343103,150.951724 142.344828,158.896552 L17.2137931,158.896552 Z" id="bg" fill="#5E7353"></path>
+                    <g id="wall" transform="translate(17.213793, 0.000000)">
+                        <rect id="Rectangle" fill="#DECBAF" x="0" y="0" width="100.634483" height="158.896552"></rect>
+                        <rect id="Rectangle-Copy-41" fill="#F2DDBE" x="0" y="0" width="100.634483" height="60.9103448"></rect>
+                        <rect id="Rectangle" fill="#F2DDBE" x="0" y="60.9103448" width="100.634483" height="2.64827586"></rect>
+                        <rect id="Rectangle-Copy-30" fill="#DAC6AA" x="0" y="63.5586207" width="100.634483" height="1.32413793"></rect>
+                    </g>
+                    <g id="grass" transform="translate(55.613793, 153.600000)">
+                        <rect id="Rectangle" fill="#8DB477" x="0" y="0" width="62.2344828" height="5.29655172"></rect>
+                        <rect id="Rectangle-Copy-40" fill="#6E9A55" x="0" y="3.97241379" width="62.2344828" height="1.32413793"></rect>
+                    </g>
+                    <g id="door" transform="translate(26.482759, 79.448276)">
+                        <rect id="Rectangle" fill="#121212" x="2.64827586" y="0" width="23.8344828" height="47.6689655"></rect>
+                        <rect id="Rectangle-Copy-21" fill="#444444" x="5.29655172" y="2.64827586" width="18.537931" height="45.0206897"></rect>
+                        <rect id="Rectangle-Copy-13" stroke="#121212" stroke-width="1.32413793" fill="#777777" x="9.26896552" y="6.62068966" width="10.5931034" height="5.29655172"></rect>
+                        <rect id="Rectangle" fill="#A38766" x="0" y="51.6413793" width="29.1310345" height="27.8068966"></rect>
+                        <rect id="Rectangle" fill="#121212" x="0" y="47.6689655" width="29.1310345" height="3.97241379"></rect>
+                        <rect id="Rectangle-Copy-9" fill="#121212" x="0" y="55.6137931" width="29.1310345" height="3.97241379"></rect>
+                        <rect id="Rectangle-Copy-20" fill="#121212" x="0" y="63.5586207" width="29.1310345" height="3.97241379"></rect>
+                        <rect id="Rectangle-Copy-26" fill="#121212" x="0" y="71.5034483" width="29.1310345" height="3.97241379"></rect>
+                        <rect id="Rectangle" fill="#CBB294" x="0" y="30.4551724" width="5.29655172" height="29.1310345"></rect>
+                        <rect id="Rectangle-Copy-24" fill="#A38766" x="0" y="59.5862069" width="5.29655172" height="19.862069"></rect>
+                        <rect id="Rectangle-Copy-25" fill="#A38766" x="23.8344828" y="59.5862069" width="5.29655172" height="19.862069"></rect>
+                        <rect id="Rectangle-Copy-38" fill="#927A5E" x="23.8344828" y="59.5862069" width="5.29655172" height="1.32413793"></rect>
+                        <rect id="Rectangle-Copy-39" fill="#927A5E" x="2.35214147e-15" y="59.5862069" width="5.29655172" height="1.32413793"></rect>
+                        <polygon id="Rectangle-Copy-22" fill="#121212" points="5.29655172 30.4551724 14.5655172 47.6689655 5.29655172 47.6689655"></polygon>
+                        <polygon id="Rectangle-Copy-22" fill="#121212" points="29.1310345 51.6413793 38.4 79.4482759 29.1310345 79.4482759"></polygon>
+                        <polygon id="Rectangle-Copy-23" fill="#121212" points="5.29655172 51.6413793 9.93103448 55.6137931 5.29655172 55.6137931"></polygon>
+                        <polygon id="Rectangle-Copy-27" fill="#121212" points="5.29655172 59.5862069 9.93103448 63.5586207 5.29655172 63.5586207"></polygon>
+                        <polygon id="Rectangle-Copy-28" fill="#121212" points="5.29655172 68.1931034 9.93103448 72.1655172 5.29655172 72.1655172"></polygon>
+                        <polygon id="Rectangle-Copy-29" fill="#121212" points="5.29655172 75.4758621 9.93103448 79.4482759 5.29655172 79.4482759"></polygon>
+                        <rect id="Rectangle-Copy-3" fill="#CBB294" x="23.8344828" y="30.4551724" width="5.29655172" height="29.1310345"></rect>
+                    </g>
+                    <g id="top-left-window" transform="translate(30.455172, 26.482759)">
+                        <rect id="Rectangle-Copy-4" fill="#121212" x="0" y="0" width="21.1862069" height="23.8344828"></rect>
+                        <rect id="Rectangle-Copy-11" fill="#FFF9DC" x="2.64827586" y="2.64827586" width="15.8896552" height="18.537931"></rect>
+                        <rect id="Rectangle-Copy-31" fill="#121212" x="0" y="10.5931034" width="21.1862069" height="2.64827586"></rect>
+                    </g>
+                    <g id="top-right-window" transform="translate(72.827586, 26.482759)">
+                        <rect id="Rectangle-Copy-5" fill="#121212" x="0" y="0" width="31.7793103" height="23.8344828"></rect>
+                        <rect id="Rectangle-Copy-12" fill="#FFF9DC" x="2.64827586" y="2.64827586" width="26.4827586" height="18.537931"></rect>
+                        <rect id="Rectangle-Copy-16" fill="#121212" transform="translate(15.889655, 11.917241) rotate(-90.000000) translate(-15.889655, -11.917241) " x="14.5655172" y="-3.97241379" width="2.64827586" height="31.7793103"></rect>
+                        <rect id="Rectangle-Copy-16" fill="#121212" x="14.5655172" y="7.5268527e-14" width="2.64827586" height="23.8344828"></rect>
+                    </g>
+                    <g id="main-window" transform="translate(72.827586, 79.448276)">
+                        <rect id="Rectangle-Copy-6" fill="#121212" x="0" y="-7.5268527e-14" width="31.7793103" height="42.3724138"></rect>
+                        <rect id="Rectangle-Copy-14" fill="#F6EEC6" x="2.64827586" y="2.64827586" width="26.4827586" height="37.0758621"></rect>
+                        <rect id="Rectangle-Copy-17" fill="#FFEF9A" transform="translate(15.889655, 3.972414) rotate(-90.000000) translate(-15.889655, -3.972414) " x="14.5655172" y="-9.26896552" width="2.64827586" height="26.4827586"></rect>
+                        <rect id="Rectangle-Copy-19" fill="#FFEF9A" transform="translate(15.889655, 27.806897) rotate(-90.000000) translate(-15.889655, -27.806897) " x="14.5655172" y="14.5655172" width="2.64827586" height="26.4827586"></rect>
+                        <rect id="Rectangle-Copy-18" fill="#FFEF9A" x="2.64827586" y="5.29655172" width="2.64827586" height="34.4275862"></rect>
+                        <rect id="Rectangle-Copy-15" fill="#121212" x="14.5655172" y="2.64827586" width="2.64827586" height="37.0758621"></rect>
+                        <rect id="Rectangle-Copy-16" fill="#121212" transform="translate(15.889655, 25.158621) rotate(-90.000000) translate(-15.889655, -25.158621) " x="14.5655172" y="9.26896552" width="2.64827586" height="31.7793103"></rect>
+                    </g>
+                    <g id="top" transform="translate(17.213793, 0.000000)">
+                        <rect id="Rectangle-Copy" fill="#333333" x="0" y="0" width="100.634483" height="15.8896552"></rect>
+                        <g id="Group" transform="translate(12.579310, 3.972414)">
+                            <rect id="Rectangle" fill="#121212" x="1.32413793" y="0" width="5.29655172" height="11.9172414"></rect>
+                            <rect id="Rectangle-Copy-7" fill="#555555" x="0" y="0" width="1.32413793" height="11.9172414"></rect>
+                        </g>
+                        <g id="Group-Copy" transform="translate(29.793103, 3.972414)">
+                            <rect id="Rectangle" fill="#121212" x="1.32413793" y="0" width="5.29655172" height="11.9172414"></rect>
+                            <rect id="Rectangle-Copy-7" fill="#555555" x="0" y="0" width="1.32413793" height="11.9172414"></rect>
+                        </g>
+                        <g id="Group-Copy-2" transform="translate(47.006897, 3.972414)">
+                            <rect id="Rectangle" fill="#121212" x="1.32413793" y="0" width="5.29655172" height="11.9172414"></rect>
+                            <rect id="Rectangle-Copy-7" fill="#555555" x="0" y="0" width="1.32413793" height="11.9172414"></rect>
+                        </g>
+                        <g id="Group-Copy-3" transform="translate(64.220690, 3.972414)">
+                            <rect id="Rectangle" fill="#121212" x="1.32413793" y="0" width="5.29655172" height="11.9172414"></rect>
+                            <rect id="Rectangle-Copy-7" fill="#555555" x="0" y="0" width="1.32413793" height="11.9172414"></rect>
+                        </g>
+                        <g id="Group-Copy-4" transform="translate(81.434483, 3.972414)">
+                            <rect id="Rectangle" fill="#121212" x="1.32413793" y="0" width="5.29655172" height="11.9172414"></rect>
+                            <rect id="Rectangle-Copy-7" fill="#555555" x="0" y="0" width="1.32413793" height="11.9172414"></rect>
+                        </g>
+                        <rect id="Rectangle-Copy-2" fill="#121212" x="0" y="0" width="100.634483" height="3.97241379"></rect>
+                    </g>
+                    <g id="bottom-left-window" transform="translate(72.827586, 132.413793)">
+                        <rect id="Rectangle-Copy-8" fill="#A38766" x="0" y="0" width="13.2413793" height="15.8896552"></rect>
+                        <rect id="Rectangle-Copy-32" stroke="#121212" stroke-width="2.64827586" x="1.32413793" y="1.32413793" width="10.5931034" height="13.2413793"></rect>
+                        <rect id="Rectangle-Copy-16" fill="#121212" x="0" y="6.62068966" width="13.2413793" height="2.64827586"></rect>
+                    </g>
+                    <g id="bottom-right-window" transform="translate(91.365517, 132.413793)">
+                        <rect id="Rectangle-Copy-10" fill="#A38766" x="0" y="0" width="13.2413793" height="15.8896552"></rect>
+                        <rect id="Rectangle-Copy-33" stroke="#121212" stroke-width="2.64827586" x="1.32413793" y="1.32413793" width="10.5931034" height="13.2413793"></rect>
+                        <rect id="Rectangle-Copy-34" fill="#121212" x="0" y="6.62068966" width="13.2413793" height="2.64827586"></rect>
+                    </g>
+                </g>
+                <text id="Maypole" font-family="SurveyorText-Black, Surveyor Text" font-size="56" font-weight="normal" letter-spacing="2" fill="#000000">
+                    <tspan x="167" y="102">MAYPOLE</tspan>
+                </text>
+                <text id="THE" font-family="SurveyorText-Black, Surveyor Text" font-size="28" font-weight="normal" letter-spacing="1.75" fill="#000000">
+                    <tspan x="167" y="55">THE</tspan>
+                </text>
+                <text id="Est.-2017" font-family="SurveyorText-Black, Surveyor Text" font-size="16" font-weight="normal" letter-spacing="1.5" fill="#121212">
+                    <tspan x="167" y="128">EST. 2017</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

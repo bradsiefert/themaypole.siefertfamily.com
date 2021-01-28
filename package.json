@@ -1,0 +1,15 @@
+{
+  "name": "siefert-family-the-maypole",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1",
+    "gridsome": "^0.7.0",
+    "npm-sass": "^2.3.0",
+    "sass-loader": "^10.1.1"
+  }
+}
