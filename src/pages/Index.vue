@@ -1,13 +1,8 @@
 <template>
-  <Layout>
-    <div class="row mb-2">
-      <div class="col text-center">
-        <h2 class="font-size-700 fw-bold">Give us your email and we’ll give you our stories.</h2>
-      </div>
-    </div>
-    
-    <div class="row g-2 mb-7">
-      <div class="col-md offset-md-2">
+  <Layout>    
+    <div class="row g-2 mb-7 d-flex justify-content-center">
+      <h2 class="font-size-700 text-center fw-bold mb-2">Give us your email and we’ll give you our stories.</h2>
+      <div class="col-md-6">
         <form>
           <div class="form-floating">
             <input type="email" class="form-control form-control-lg" id="floatingInputValue" placeholder="email@domain.com" value="email@domain.com">
@@ -15,7 +10,7 @@
           </div>
         </form>
       </div>
-      <div class="col-md d-md-block d-grid">
+      <div class="col-md-2 d-grid">
         <g-link to="/" class="btn btn-xl btn-success mb-3">Submit</g-link>
       </div>
     </div>

@@ -10,7 +10,7 @@
       
       <div class="row">
         <div class="col text-center">
-          <h1 class="slogan mb-3">A quarterly* newsletter about the goings on at the Siefert & Linquist household.</h1>
+          <h1 class="slogan mb-3 mx-sm-5">A quarterly* newsletter about the goings on at the Siefert & Linquist household.</h1>
           <p class="mb-0">*We’re going to try to make it <strong>quarterly</strong>, but it might be more like <em>occasionally</em>.</p>
         </div>
       </div>
