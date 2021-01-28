@@ -29,12 +29,12 @@
   <div class="footer d-flex align-items-center">
     <div class="container-xl wide-contain">
     	<div class="row d-flex font-secondary fw-black font-size-500 lh-sm">
-    		<div class="col-xl">
+    		<div class="col-lg">
           <span class="text-uppercase">Made by:</span>&nbsp; <a target="_new" href="https://bradsiefert.com">Brad Siefert</a><br>
           <span class="text-uppercase">License:</span>&nbsp; <a target="_new" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0</a><br>
         </div>
         
-        <div class="col-xl">
+        <div class="col-lg">
           <span class="text-uppercase">Illustrations by:</span>&nbsp; <a target="_new" href="https://www.caseyvstelstudio.com">Casey VanderStel</a><br>
           <span class="text-uppercase">Credits:</span>&nbsp; <a target="_blank" rel="noopener" title="Link to Gridsome" href="https://gridsome.org">Gridsome</a>, 
           <a target="_blank" rel="noopener" title="Link to Bootstrap" href="https://getbootstrap.com">Bootstrap</a>,
