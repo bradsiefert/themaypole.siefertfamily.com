@@ -127,7 +127,7 @@ a:active {
 
 .form-floating > label {
   padding: 1.125rem 0.75rem 1rem 1.5rem;
-  color: darken($green, 16%);
+  color: $gray-900;
   letter-spacing: 1px;
   font-size: 1.25rem;
   font-family: 'Surveyor Text';
@@ -137,6 +137,7 @@ a:active {
 .form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label {
   opacity: 0.64;
   transform: scale(.80) translateY(-.5rem) translateX(.15rem);
+  color: $green;
 }
 
 .form-floating > .form-control:focus, .form-floating > .form-control:not(:placeholder-shown) {

@@ -5,6 +5,14 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
-  plugins: []
+  siteName: 'The Maypole',
+  siteDescription: "The Maypole, a family newsletter from The Sieferts.",
+  siteUrl: 'https://themaypole.siefertfamily.com',
+  titleTemplate: `The Maypole | %s`,
+  icon: 'src/favicon.png',
+  plugins: [
+    {
+      use: '@gridsome/plugin-sitemap',
+    }
+  ]
 }

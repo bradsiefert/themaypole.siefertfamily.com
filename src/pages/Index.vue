@@ -17,23 +17,23 @@
     
     <div class="row mx-sm-6">
       <div class="col text-center">
-        <img src="@/assets/images/residents-brad.png" class="avatar mb-2" width="80" alt="">
+        <img src="@/assets/images/residents-brad.png" class="avatar mb-2" width="80" height="80" alt="Illustration avatar for Brad">
         <h3 class="font-size-900 fw-black font-secondary">Brad</h3>
       </div>
       <div class="col text-center">
-        <img src="@/assets/images/residents-nic.png" class="avatar mb-2" width="80" alt="">
+        <img src="@/assets/images/residents-nic.png" class="avatar mb-2" width="80" height="80" alt="Illustration avatar for Nic">
         <h3 class="font-size-900 fw-black font-secondary">Nic</h3>
       </div>
       <div class="col text-center">
-        <img src="@/assets/images/residents-steph.png" class="avatar mb-2" width="80" alt="">
+        <img src="@/assets/images/residents-steph.png" class="avatar mb-2" width="80" height="80" alt="Illustration avatar for Steph">
         <h3 class="font-size-900 fw-black font-secondary">Steph</h3>
       </div>
       <div class="col text-center">
-        <img src="@/assets/images/residents-lydia.png" class="avatar mb-2" width="80" alt="">
+        <img src="@/assets/images/residents-lydia.png" class="avatar mb-2" width="80" height="80" alt="Illustration avatar for Lydia">
         <h3 class="font-size-900 fw-black font-secondary">Lydia</h3>
       </div>
       <div class="col text-center">
-        <img src="@/assets/images/residents-ringle.png" class="avatar mb-2" width="80" alt="">
+        <img src="@/assets/images/residents-ringle.png" class="avatar mb-2" width="80" height="80" alt="Illustration avatar for Ringle">
         <h3 class="font-size-900 fw-black font-secondary">Ringle</h3>
       </div>
     </div>
@@ -44,7 +44,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'The Maypole | A family newsletter from The Sieferts.'
+    title: 'A family newsletter from The Sieferts.'
   }
 }
 </script>

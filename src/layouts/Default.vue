@@ -19,10 +19,10 @@
       <slot/>
       <hr class="divider">
       
-      <h3 class="font-size-700 fw-bold text-center mb-3">Wanna read our old newsletters?</h3>
+      <!-- <h3 class="font-size-700 fw-bold text-center mb-3">Wanna read our old newsletters?</h3>
       <div class="d-grid col-lg-4 col-md-5 mx-auto">
         <g-link to="/" class="btn btn-xl btn-success mb-3">Read Archives</g-link>
-      </div>
+      </div> -->
     </div>
   </main>
   
