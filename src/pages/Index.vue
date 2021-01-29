@@ -5,7 +5,7 @@
       <div class="col-md-6">
         <form>
           <div class="form-floating">
-            <input type="email" class="form-control form-control-lg" id="floatingInputValue" placeholder="email@domain.com" value="email@domain.com">
+            <input type="email" class="form-control form-control-lg" id="floatingInputValue" placeholder="email@domain.com">
             <label for="floatingInputValue">Your Email</label>
           </div>
         </form>
