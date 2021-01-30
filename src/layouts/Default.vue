@@ -38,10 +38,34 @@
           <span class="text-uppercase">Illustrations by:</span>&nbsp; <a target="_new" href="https://www.caseyvstelstudio.com">Casey VanderStel</a><br>
           <span class="text-uppercase">Credits:</span>&nbsp; <a target="_blank" rel="noopener" title="Link to Gridsome" href="https://gridsome.org">Gridsome</a>, 
           <a target="_blank" rel="noopener" title="Link to Bootstrap" href="https://getbootstrap.com">Bootstrap</a>,
-          <a target="_blank" rel="noopener" title="Link to Netlify" href="https://netlify.com">Netlify</a>, & ConvertKit<br>
+          <a target="_blank" rel="noopener" title="Link to Netlify" href="https://netlify.com">Netlify</a>, & <a target="_blank" rel="noopener" title="Link to Mailchimp" href="https://mailchimp.com">Mailchimp</a>
         </div>
       </div>
   	</div>
   </div>
 </div>
 </template>
+
+<script>
+export default {
+  metaInfo() {
+    return {
+      title: 'A family newsletter from The Sieferts.',
+      meta: [
+        { property: "og:type", content: 'article' },
+        { property: "og:title", content: "The Maypole" },
+        { property: "og:description", content: "The Maypole, a family newsletter from The Sieferts." },
+        { property: "og:url", content: "https://themaypole.siefertfamily.com/" },
+        { property: "og:image", content: "https://themaypole.siefertfamily.com/sharing.jpg" },
+
+        { name: "twitter:card", content: "summary_large_image" },
+        { name: "twitter:title", content: "The Maypole" },
+        { name: "twitter:description", content: "The Maypole, a family newsletter from The Sieferts." },
+        { name: "twitter:site", content: "@bksiefert" },
+        { name: "twitter:creator", content: "@bksiefert" },
+        { name: "twitter:image", content: "https://themaypole.siefertfamily.com/sharing.jpg" }
+      ]
+    };
+  },
+}
+</script>
