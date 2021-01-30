@@ -56,14 +56,14 @@ export default {
         { property: "og:title", content: "The Maypole" },
         { property: "og:description", content: "The Maypole, a family newsletter from The Sieferts." },
         { property: "og:url", content: "https://themaypole.siefertfamily.com/" },
-        { property: "og:image", content: "https://themaypole.siefertfamily.com/sharing.jpg" },
+        { property: "og:image", content: "https://themaypole.siefertfamily.com/sharing.png" },
 
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: "The Maypole" },
         { name: "twitter:description", content: "The Maypole, a family newsletter from The Sieferts." },
         { name: "twitter:site", content: "@bksiefert" },
         { name: "twitter:creator", content: "@bksiefert" },
-        { name: "twitter:image", content: "https://themaypole.siefertfamily.com/sharing.jpg" }
+        { name: "twitter:image", content: "https://themaypole.siefertfamily.com/sharing.png" }
       ]
     };
   },
