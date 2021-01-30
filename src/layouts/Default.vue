@@ -4,7 +4,7 @@
     <div class="container-xl wide-contain">
       <div class="row">
         <div class="col text-center">
-          <img src="@/assets/images/logo.svg" class="img-fluid mb-7 px-3 px-sm-0" alt="Logo for The Maypole Newsletter">
+          <g-link to="/"><img src="@/assets/images/logo.svg" class="img-fluid mb-7 px-3 px-sm-0" alt="Logo for The Maypole Newsletter"></g-link>
         </div>
       </div>
       

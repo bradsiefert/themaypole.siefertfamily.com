@@ -1,38 +1,8 @@
 <template>
   <Layout>
-    <div class="row text-center">
-      <h2 class="font-size-700 text-center fw-bold mb-3">Give us your email and we’ll give you our stories.</h2>
-      <template>
-        <mailchimp-subscribe
-          url="https://siefertfamily.us7.list-manage.com/subscribe/post-json"
-          user-id="a7630d1d6791ce52dccabb2dc"
-          list-id="72a1272d4c"
-          @error="onError"
-          @success="onSuccess"
-        >
-          <template v-slot="{ subscribe, setEmail, error, success, loading }">
-            <form @submit.prevent="subscribe">
-              <div class="row g-2 mb-7 d-flex justify-content-center">
-                <div class="col-md-6">
-                  <div class="form-floating">
-                    <input type="email" class="form-control form-control-lg" id="floatingInputValue" placeholder="email@domain.com" @input="setEmail($event.target.value)" />
-                    <label for="floatingInputValue">Your Email</label>
-                  </div>
-                </div>
-                <div class="col-md-2 d-grid">
-                  <button type="submit" class="btn btn-xl btn-success mb-3">Submit</button>
-                </div>
-                <div v-if="error">
-                  <div v-html="error"></div>
-                  <!-- {{ error }} -->
-                </div>
-                <div v-if="success">Yay!</div>
-                <div v-if="loading">Loading…</div>
-              </div>
-            </form>
-          </template>
-        </mailchimp-subscribe>
-      </template>
+    <div class="row text-center mb-5">
+      <h2 class="font-size-800 text-center fw-bold">Success.</h2>
+      <p class="font-size-600">You're all signed up! You'll get our next newsletter we send out.</p>
     </div>
     
     <div class="row mx-sm-6">
@@ -74,11 +44,11 @@ export default {
   methods: {
     onError() {
       // handle error
-      console.log('Error!');
+      // console.log('Error!');
     },
     onSuccess() {
       // handle success
-      console.log('Success!');
+      // console.log('Success!');
       window.location.href = "/success";
     },
   },
