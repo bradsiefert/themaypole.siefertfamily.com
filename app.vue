@@ -1,17 +1,13 @@
 <template>
   <main>
     <div class="container-xl wide-contain">
-      <div class="row">
+      <header class="row">
         <div class="col text-center">
           <NuxtLink to="/"><img src="@/assets/images/logo.svg" class="img-fluid mb-7 px-3 px-sm-0" alt="Logo for The Maypole Newsletter"></NuxtLink>
         </div>
-      </div>
+      </header>
 
       <NuxtPage/>
-      <!--<h3 class="font-size-700 fw-bold text-center mb-3">Wanna read our old newsletters?</h3>
-      <div class="d-grid col-lg-4 col-md-5 mx-auto">
-        <NuxtLink to="/" class="btn btn-xl btn-success mb-3">Read Archives</NuxtLink>
-      </div>-->
 
       <hr class="divider">
       <div class="row mx-sm-6">
@@ -36,7 +32,7 @@
     </div>
   </main>
 
-  <div class="footer d-flex align-items-center">
+  <footer class="footer d-flex align-items-center">
     <div class="container-xl wide-contain">
       <div class="row d-flex font-secondary fw-black lh-sm">
         <div class="col-lg">
@@ -52,5 +48,5 @@
         </div>
       </div>
     </div>
-  </div>
+  </footer>
 </template>
