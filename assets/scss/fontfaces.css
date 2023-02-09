@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Untitled Serif';
+    src: url('../fonts/UntitledSerif-Regular.woff2') format('woff2'),
+         url('../fonts/UntitledSerif-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Untitled Serif';
+    src:url('../fonts/UntitledSerif-RegularItalic.woff2') format('woff2'),
+        url('../fonts/UntitledSerif-RegularItalic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Untitled Serif';
+    src: url('../fonts/UntitledSerif-Bold.woff2') format('woff2'),
+        url('../fonts/UntitledSerif-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Untitled Serif';
+    src:url('../fonts/UntitledSerif-BoldItalic.woff2') format('woff2'),
+        url('../fonts/UntitledSerif-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Surveyor Text';
+    src: url('../fonts/SurveyorText-Black.eot');
+    src: url('../fonts/SurveyorText-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SurveyorText-Black.woff2') format('woff2'),
+        url('../fonts/SurveyorText-Black.woff') format('woff'),
+        url('../fonts/SurveyorText-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}

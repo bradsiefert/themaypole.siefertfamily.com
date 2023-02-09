@@ -1,14 +1,51 @@
-# Default starter for Gridsome
+# The Maypole Project Instructions
+Hello! This is the simple site I built to house my family's occasionally sent update newsletter. I originally built it using Gridsome, but migrated it to Nuxt 3.
 
-This is the project you get when you run `gridsome create new-project`.
+It uses:
+- Nuxt 3
+- Content v2
+- Mailchimp
+- Markdown files
 
-### 1. Install Gridsome CLI tool if you don't have
+To learn more about Nuxt 3 and Content v2 check out: [Content documentation](https://content-v2.nuxtjs.org/) to learn more.
 
-`npm install --global @gridsome/cli`
+---
 
-### 2. Create a Gridsome project
+## Setup
+Make sure to install the dependencies:
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+```bash
+# yarn
+yarn install
+
+# npm
+npm install
+
+# pnpm
+pnpm install
+```
+
+## Development Server
+```bash
+npm run dev
+```
+
+This will start the development server on http://localhost:3000
+
+
+## Production
+Build the application for production:
+
+```bash
+npm run build
+```
+
+Locally preview production build:
+
+```bash
+npm run preview
+```
+
+Check out the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
+
+I deployed the site to production using (Netlify)[https://netlify.com].
