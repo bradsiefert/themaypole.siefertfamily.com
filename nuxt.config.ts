@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       charset: 'utf-8',
-      viewport: 'width=device-width, initial-scale=1"',
+      viewport: 'width=device-width, initial-scale=1',
       title: 'The Maypole, a newletter from The Sieferts',
       meta: [
         { name: 'description', content: 'An occasional newsletter about the goings on around the Siefert family.' },
