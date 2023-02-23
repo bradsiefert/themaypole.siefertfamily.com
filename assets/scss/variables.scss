@@ -88,7 +88,7 @@ $theme-colors: map-merge(
 );
 
 // Link Variables
-$link-color:                              darken($primary, 12%) !default;
+$link-color:                              darken($primary, 24%) !default;
 $link-decoration:                         none !default;
 $link-hover-color:                        darken($link-color, 16%) !default;
 $link-hover-decoration:                   underline !default;
