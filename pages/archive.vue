@@ -1,6 +1,12 @@
 <script setup lang="ts">
   import type { QueryBuilderParams } from '@nuxt/content/dist/runtime/types'
   const queryNewsletters: QueryBuilderParams = { path: '/', sort: { date: -1 } }
+  definePageMeta({
+    documentDriven: false
+  })
+  useHead({
+    title: 'Past Newsletters'
+  })
 </script>
 
 <template>

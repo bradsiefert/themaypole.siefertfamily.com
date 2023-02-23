@@ -41,3 +41,12 @@
     <!--End mc_embed_signup-->
   </div>
 </template>
+
+<script setup lang="ts">
+definePageMeta({
+  documentDriven: false
+})
+useHead({
+  title: 'a newletter from The Sieferts'
+})
+</script>

@@ -4,3 +4,12 @@
     <p class="font-size-600">You're all signed up! You'll get the next newsletter we send out.</p>
   </div>
 </template>
+
+<script setup lang="ts">
+  definePageMeta({
+    documentDriven: false
+  })
+  useHead({
+    title: 'Success'
+  })
+</script>
