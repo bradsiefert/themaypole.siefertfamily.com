@@ -11,7 +11,7 @@
     </ContentDoc>
 
     <div class="d-grid col-lg-3 col-md-4 mx-auto mt-5">
-      <NuxtLink to="/archive" class="btn btn-lg btn-success mb-3">Read Archives</NuxtLink>
+      <NuxtLink to="/archive" class="btn btn-lg btn-neutral mb-3">Read Archives</NuxtLink>
     </div>
 
   </article>

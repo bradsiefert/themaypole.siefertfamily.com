@@ -172,6 +172,28 @@ a:active {
   border-radius: 8px;
 }
 
+.btn-success:active {
+  box-shadow: none;
+}
+
+.btn-neutral {
+  background: #FFFFFF !important;
+  border: 2px solid #5E7353 !important;
+  box-shadow: inset 0 -5px 0 0 #C9D1C9;
+}
+
+.btn-neutral:hover {
+  background: #FFFFFF !important;
+  border: 2px solid #5E7353 !important;
+  box-shadow: inset 0 -5px 0 0 #C9D1C9;
+}
+
+.btn-neutral:active {
+  background: #FFFFFF !important;
+  border: 2px solid #5E7353 !important;
+  box-shadow: none;
+}
+
 /* Misc*/
 .divider {
   border-top: 2px solid;

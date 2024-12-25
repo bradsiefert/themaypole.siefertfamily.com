@@ -16,18 +16,15 @@
           <h3 class="font-size-900 fw-black font-secondary mb-6 mb-sm-0">Brad</h3>
         </div>
         <div class="col-6 col-md text-center">
-          <img src="@/assets/images/residents-nic.png" class="avatar mb-2" width="80" height="80" alt="Illustration avatar for Nic">
-          <h3 class="font-size-900 fw-black font-secondary mb-6 mb-sm-0">Nic</h3>
-        </div>
-        <div class="col-6 col-md text-center">
           <img src="@/assets/images/residents-lydia.png" class="avatar mb-2" width="80" height="80" alt="Illustration avatar for Lydia">
           <h3 class="font-size-900 fw-black font-secondary mb-6 mb-sm-0">Lydia</h3>
         </div>
-        <div class="col-6 col-md text-center">
+        <div class="col-12 col-md text-center">
           <img src="@/assets/images/residents-ringle.png" class="avatar mb-2" width="80" height="80" alt="Illustration avatar for our dog Coco">
           <h3 class="font-size-900 fw-black font-secondary mb-6 mb-sm-0">Coco</h3>
         </div>
       </div>
+
       <hr class="divider">
     </main>
   </div>

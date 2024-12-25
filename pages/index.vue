@@ -6,7 +6,7 @@
   </div>
 
   <div class="row text-center">
-    <h2 class="font-size-700 text-center fw-bold mb-3">
+    <h2 class="font-size-700 text-center fw-bold mb-5">
       Give us your email and we’ll send you our updates. ❤️
     </h2>
 
@@ -37,8 +37,8 @@
           <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a7630d1d6791ce52dccabb2dc_72a1272d4c" tabindex="-1" value=""></div>
         </div>
       </form>
+      <!--End mc_embed_signup-->
     </div>
-    <!--End mc_embed_signup-->
   </div>
 </template>
 
