@@ -11,14 +11,19 @@ export default defineNuxtConfig({
       ],
     }
   },
+
   modules: ['@nuxt/content'],
+
   content: {
     documentDriven: true,
     markdown: {
       anchorLinks: false
     }
   },
+
   css: [
     '@/assets/scss/styles.scss' // Needed to install sass and bootstrap to make this work.
-  ]
+  ],
+
+  compatibilityDate: '2024-12-25'
 })
