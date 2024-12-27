@@ -1,14 +1,13 @@
 <template>
-  <div class="container-xl wide-contain">
-    <header class="row">
-      <div class="col text-center">
-        <NuxtLink to="/"><img src="@/assets/images/logo.svg" class="img-fluid mb-7 px-3 px-sm-0" alt="Logo for The Maypole Newsletter"></NuxtLink>
-      </div>
-    </header>
+  <header class="row">
+    <div class="col text-center">
+      <NuxtLink to="/"><img src="@/assets/images/logo.svg" class="img-fluid mb-7 px-3 px-sm-0" alt="Logo for The Maypole Newsletter"></NuxtLink>
+    </div>
+  </header>
 
-    <main>
+  <main>
+    <div class="container-xl wide-contain">
       <NuxtPage/>
-
       <hr class="divider">
       <div class="row mx-sm-6">
         <div class="col-6 col-md text-center">
@@ -24,12 +23,11 @@
           <h3 class="font-size-900 fw-black font-secondary mb-6 mb-sm-0">Coco</h3>
         </div>
       </div>
-
       <hr class="divider">
-    </main>
-  </div>
+    </div>
+  </main>
 
-  <footer class="footer d-flex align-items-center">
+  <footer class="footer">
     <div class="container-xl wide-contain">
       <div class="row d-flex font-secondary fw-black lh-sm">
         <div class="col-lg">
