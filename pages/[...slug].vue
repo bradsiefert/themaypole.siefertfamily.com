@@ -1,14 +1,6 @@
 <script setup lang="ts">
 const route = useRoute()
 
-// Construct the path from route params
-const slug = computed(() => {
-  if (Array.isArray(route.params.slug)) {
-    return '/' + route.params.slug.join('/')
-  }
-  return '/' + String(route.params.slug)
-})
-
 // Query the content - try multiple path variations to handle different path formats
 const { data: page } = await useAsyncData(`content-${route.path}`, async () => {
   // Try exact path first
@@ -34,24 +26,25 @@ const { data: page } = await useAsyncData(`content-${route.path}`, async () => {
 
 if (!page.value) {
   throw createError({
-    statusCode: 404,
-    statusMessage: 'Page Not Found'
+    status: 404,
+    message: 'Page Not Found'
   })
 }
 
-// Set the layout from frontmatter
-const layout = (page.value as any).layout || 'default'
-setPageLayout(layout)
+// Get layout from frontmatter - will be nested inside default layout from app.vue
+const layout = computed(() => (page.value as any)?.layout || 'default')
 
 // Set page meta from content
 useHead({
-  title: (page.value as any).title || 'The Maypole'
+  title: (page.value as any)?.title || 'The Maypole'
 })
 </script>
 
 <template>
-  <div class="post-content">
-    <ContentRenderer :value="page" />
-  </div>
+  <NuxtLayout :name="layout">
+    <div class="post-content">
+      <ContentRenderer :value="page" />
+    </div>
+  </NuxtLayout>
 </template>
 
