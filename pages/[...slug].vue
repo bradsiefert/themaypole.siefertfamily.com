@@ -31,20 +31,19 @@ if (!page.value) {
   })
 }
 
-// Get layout from frontmatter - will be nested inside default layout from app.vue
-const layout = computed(() => (page.value as any)?.layout || 'default')
+// Set the layout from frontmatter
+const layout = (page.value as any).layout || 'default'
+setPageLayout(layout)
 
 // Set page meta from content
 useHead({
-  title: (page.value as any)?.title || 'The Maypole'
+  title: (page.value as any).title || 'The Maypole'
 })
 </script>
 
 <template>
-  <NuxtLayout :name="layout">
-    <div class="post-content">
-      <ContentRenderer :value="page" />
-    </div>
-  </NuxtLayout>
+  <div class="post-content">
+    <ContentRenderer :value="page" />
+  </div>
 </template>
 
