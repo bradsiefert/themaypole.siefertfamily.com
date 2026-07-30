@@ -236,13 +236,30 @@ a:active {
   margin-bottom: 1.5rem;
 }
 
-.post img {
+.post img,
+.post-content img {
   width: 100%;
 }
 
+/* Table styles for newsletter posts */
 .post table,
-.post td {
-  border-spacing: 0px;
-  padding: 0;
+.post-content table {
+  width: 100%;
+  border-collapse: collapse;
   margin-bottom: 1rem;
+  border-spacing: 0;
+}
+
+.post table td,
+.post table th,
+.post-content table td,
+.post-content table th {
+  padding: 0;
+  vertical-align: top;
+}
+
+.post table img,
+.post-content table img {
+  width: 100%;
+  display: block;
 }

@@ -7,7 +7,7 @@
 
   <main>
     <div class="container-xl wide-contain">
-      <NuxtPage/>
+      <NuxtPage />
       <hr class="divider">
       <div class="row mx-sm-6">
         <div class="col-6 col-md text-center">
@@ -37,7 +37,7 @@
 
         <div class="col-lg">
           <span class="text-uppercase">Illustrations by:</span>&nbsp; <a target="_new" href="https://www.caseyvstelstudio.com">Casey VanderStel</a><br>
-          <span class="text-uppercase">Credits:</span>&nbsp; <a target="_blank" rel="noopener" title="Link to Gridsome" href="https://nuxt.com">Nuxt 3</a>,
+          <span class="text-uppercase">Credits:</span>&nbsp; <a target="_blank" rel="noopener" title="Link to Nuxt" href="https://nuxt.com">Nuxt</a>,
           <a target="_blank" rel="noopener" title="Link to Bootstrap" href="https://getbootstrap.com">Bootstrap</a>,
           <a target="_blank" rel="noopener" title="Link to Netlify" href="https://netlify.com">Netlify</a>, & <a target="_blank" rel="noopener" title="Link to Mailchimp" href="https://mailchimp.com">Mailchimp</a>
         </div>
