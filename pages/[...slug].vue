@@ -1,49 +1,36 @@
 <script setup lang="ts">
 const route = useRoute()
 
-// Query the content - try multiple path variations to handle different path formats
-const { data: page } = await useAsyncData(`content-${route.path}`, async () => {
-  // Try exact path first
-  let content = await queryCollection('newsletters' as any).path(route.path).first()
-  
-  // If not found, try path variations
-  if (!content) {
-    // Try with leading number if path doesn't have one (e.g., /an-addition -> /1.an-addition)
-    if (!/^\d+\./.test(route.path)) {
-      const pathWithNumber = route.path.replace(/^\//, '/1.')
-      content = await queryCollection('newsletters' as any).path(pathWithNumber).first()
-    }
-    
-    // Try without leading number if path has one (e.g., /1.an-addition -> /an-addition)
-    if (!content && /^\/\d+\./.test(route.path)) {
-      const pathWithoutNumber = route.path.replace(/^\/\d+\./, '/')
-      content = await queryCollection('newsletters' as any).path(pathWithoutNumber).first()
-    }
-  }
-  
-  return content
+const { data: page } = await useAsyncData(`content-${route.path}`, () => {
+  return queryCollection('newsletters').path(route.path).first()
 })
 
 if (!page.value) {
   throw createError({
-    status: 404,
-    message: 'Page Not Found'
+    statusCode: 404,
+    statusMessage: 'Page Not Found'
   })
 }
 
-// Set the layout from frontmatter
-const layout = (page.value as any).layout || 'default'
-setPageLayout(layout)
-
-// Set page meta from content
 useHead({
-  title: (page.value as any).title || 'The Maypole'
+  title: page.value.title || 'The Maypole'
 })
 </script>
 
 <template>
-  <div class="post-content">
-    <ContentRenderer :value="page" />
-  </div>
-</template>
+  <hr class="divider thick">
+  <article class="post">
+    <div class="d-flex post-details mb-4">
+      <div class="me-5">Issue {{ page.issue }}</div>
+      <div>{{ page.prettydate }}</div>
+    </div>
 
+    <div class="post-content">
+      <ContentRenderer :value="page" />
+    </div>
+
+    <div class="d-grid col-lg-3 col-md-4 mx-auto mt-5">
+      <NuxtLink to="/archive" class="btn btn-lg btn-neutral mb-3">Read Archives</NuxtLink>
+    </div>
+  </article>
+</template>

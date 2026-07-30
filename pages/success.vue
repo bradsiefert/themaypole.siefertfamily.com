@@ -6,9 +6,6 @@
 </template>
 
 <script setup lang="ts">
-  definePageMeta({
-    documentDriven: false
-  })
   useHead({
     title: 'Success'
   })

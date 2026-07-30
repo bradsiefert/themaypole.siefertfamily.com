@@ -1,4 +1,4 @@
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
     head: {
@@ -18,9 +18,32 @@ export default defineNuxtConfig({
   modules: ['@nuxt/content'],
 
   content: {
-    documentDriven: true,
+    // Netlify functions only allow SQLite under /tmp.
+    database: {
+      type: 'sqlite',
+      filename: '/tmp/contents.sqlite'
+    },
+    experimental: {
+      // Avoid native better-sqlite3 bindings (break when local Mac deploy hits Linux).
+      sqliteConnector: 'native'
+    },
     markdown: {
       anchorLinks: false
+    }
+  },
+
+  routeRules: {
+    '/': { prerender: true },
+    '/archive': { prerender: true },
+    '/success': { prerender: true },
+    '/an-addition': { prerender: true },
+    '/wait-what': { prerender: true }
+  },
+
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ['/', '/archive', '/success']
     }
   },
 
@@ -28,5 +51,5 @@ export default defineNuxtConfig({
     '@/assets/scss/styles.scss' // Needed to install sass and bootstrap to make this work.
   ],
 
-  compatibilityDate: '2024-12-25'
+  compatibilityDate: '2026-07-30'
 })
